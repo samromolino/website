@@ -1,0 +1,111 @@
+body {
+	background-color: #BBFFE9;
+}
+
+ul.main {
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+	list-style-position: outside;
+}
+
+ul.sub {
+	font-weight: normal;
+	font-size: 16px;
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+	list-style-position: outside;
+}
+
+a:link {
+	color: darkgreen;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkmagenta;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+li.main {
+	text-decoration-line:underline;
+}
+
+table.b, th.b, td.b {
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.o, th.o, td.o {
+	margin-left: unset;
+	margin-right: unset;
+	vertical-align: top;
+	border: unset;
+	padding: 20px;
+}
+
+table.img, th.img, td.img {
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+	border: unset;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+h1 {
+	color: #EC687E;
+	text-align: center;
+	font-size: 45px;
+}
+
+h2 {
+	color: #EC687E;
+	text-align: center;
+	font-size: 35px;
+}
+
+h3 {
+	color: black;
+	border: 4px dashed #B69A93;
+	font-size: 25px;
+}
+
+h4 {
+	color: #EC687E;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: 2px double underline #B69A93;
+}
+
+p {
+
+}
+
+
+ 
